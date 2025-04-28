@@ -8,14 +8,14 @@
         android:id="@+id/editTextTitle"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="Заголовок заметки"
+        android:hint="Note title"
         android:textSize="18sp" />
 
     <EditText
         android:id="@+id/editTextContent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Содержание заметки"
+        android:hint="Note content"
         android:layout_marginTop="8dp"
         android:inputType="textMultiLine"
         android:minLines="4" />
@@ -23,7 +23,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Категория"
+        android:text="Category"
         android:textSize="16sp"
         android:layout_marginTop="8dp" />
 
@@ -38,5 +38,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Сохранить" />
+        android:text="Save" />
 </LinearLayout>

@@ -10,14 +10,14 @@
         android:id="@+id/editTextLoginUsername"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="Имя пользователя"
+        android:hint="Username"
         android:layout_marginBottom="8dp"/>
 
     <EditText
         android:id="@+id/editTextLoginPassword"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="Пароль"
+        android:hint="Password"
         android:inputType="textPassword"
         android:layout_marginBottom="16dp"/>
 
@@ -25,13 +25,13 @@
         android:id="@+id/buttonLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Войти"
+        android:text="Login"
         android:layout_marginBottom="8dp"/>
 
     <Button
         android:id="@+id/buttonGoToRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Регистрация"/>
+        android:text="Register"/>
 
 </LinearLayout> 

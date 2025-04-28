@@ -8,7 +8,7 @@
         android:id="@+id/editTextUsername"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="Имя пользователя"
+        android:hint="Username"
         android:textSize="18sp" />
 
     <EditText
@@ -23,7 +23,7 @@
         android:id="@+id/editTextNewPassword"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="Новый пароль"
+        android:hint="New password"
         android:textSize="18sp"
         android:layout_marginTop="8dp"
         android:inputType="textPassword" />
@@ -32,7 +32,7 @@
         android:id="@+id/editTextConfirmPassword"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="Подтвердите пароль"
+        android:hint="Confirm password"
         android:textSize="18sp"
         android:layout_marginTop="8dp"
         android:inputType="textPassword" />
@@ -41,6 +41,6 @@
         android:id="@+id/buttonSave"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Сохранить"
+        android:text="Save"
         android:layout_marginTop="16dp" />
 </LinearLayout>
