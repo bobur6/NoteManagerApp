@@ -43,7 +43,7 @@ A simple and user-friendly Android application for managing notes and categories
 The app uses a local SQLite database (see `DBHelper.kt`).
 
 ## License
-_Specify your license here (e.g., MIT, Apache 2.0, etc.)_
+MIT
 
 ---
 
